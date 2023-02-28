@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Job Rotation Teste</title>
+</head>
+<body>
+
+    <!-- 2 -->
+    <section>
+        <h1>Fibonacci checker:</h1>
+        <input type="number" id="numero" placeholder="digite um valor">
+        <button onclick="fibonacci()">Checar</button>
+        <p id="resposta"></p>
+    </section>
+
+    <!-- 3 -->
+    <section class="section">
+        <h2>Dados de faturamento de uma distribuidora:</h2>
+
+        <p id="menorValor">Menor valor de faturamento: </p>
+        <p id="maiorValor">Maior valor de faturamento: </p>
+        <p id="mediaAcima">Número de dias com faturamento acima da média mensal: </p>
+
+        <button onclick="distribuidora()">Calcular</button>
+    </section>
+
+    <!-- 4 -->
+    <section>
+        <h3>Valor de faturamento detalhado por estado:</h3>
+        <div class="Estados">
+            <p id="SPvalor">SP - R$67.836,43</p>
+            <p id="RJvalor">RJ - R$36.678,66</p>
+            <p id="MGvalor">MG - R$29.229,88</p>
+            <p id="ESvalor">ES - R$27.165,48</p>
+            <p id="OutrosValores">Outros - R$19.849,53</p>
+        </div>
+        <button onclick="faturamento()">Calcular</button>
+    </section>
+
+    <!-- 5 -->
+    <section class="section">
+        <h4>Inverter Texto:</h4>
+        <input type="text" id="texto" placeholder="digite um texto">
+        <button onclick="inverter()">Inverter</button>
+        <p id="textoInvertido"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
